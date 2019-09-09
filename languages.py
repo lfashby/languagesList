@@ -14,6 +14,8 @@
 
 # ISO 639-1 is listed in a comment if it is the language code listed by Wiktionary
 # In case of multiple ISO 639-2 codes, I've selected the key as those designated B (bibliographic), but have included B and T (terminology) in a comment as B/T.
+
+# Should probably use OrderedDict, for table creation to be somewhat alphabetical on first go.
 languages = {
   "ady": {
     "iso639_name": "Adygei; Adyghe",
